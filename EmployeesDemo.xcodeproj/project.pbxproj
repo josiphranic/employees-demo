@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A073ED2291528F000BE4545 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A073ED1291528F000BE4545 /* ShimmerModifier.swift */; };
-		3A073ED429152ECF00BE4545 /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A073ED329152ECF00BE4545 /* teltechians.json */; };
 		3A1AAD7D2913083300C44124 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1AAD7C2913083300C44124 /* TeamListView.swift */; };
 		3A1AAD7F2913084200C44124 /* TeamListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1AAD7E2913084200C44124 /* TeamListItemView.swift */; };
 		3A1AAD8429130C5E00C44124 /* ThemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1AAD8329130C5E00C44124 /* ThemeService.swift */; };
@@ -21,6 +20,7 @@
 		3A2A66C429119016001DD524 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A66C329119016001DD524 /* Employee.swift */; };
 		3A2A66C629119032001DD524 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A66C529119032001DD524 /* Employees.swift */; };
 		3A2A66C8291190B1001DD524 /* APIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A66C7291190B1001DD524 /* APIClientError.swift */; };
+		3A41AEF12917118A00EC2DA0 /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A41AEF02917118A00EC2DA0 /* teltechians.json */; };
 		3A45FE712911948500C95628 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3A45FE702911948500C95628 /* ComposableArchitecture */; };
 		3A45FE732911948500C95628 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 3A45FE722911948500C95628 /* Dependencies */; };
 		3A45FE75291194C700C95628 /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A45FE74291194C700C95628 /* RootFeature.swift */; };
@@ -49,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		3A073ED1291528F000BE4545 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
-		3A073ED329152ECF00BE4545 /* teltechians.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = teltechians.json; path = ../../../Downloads/teltechians.json; sourceTree = "<group>"; };
 		3A1AAD7C2913083300C44124 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
 		3A1AAD7E2913084200C44124 /* TeamListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListItemView.swift; sourceTree = "<group>"; };
 		3A1AAD8329130C5E00C44124 /* ThemeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeService.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		3A2A66C329119016001DD524 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		3A2A66C529119032001DD524 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
 		3A2A66C7291190B1001DD524 /* APIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientError.swift; sourceTree = "<group>"; };
+		3A41AEF02917118A00EC2DA0 /* teltechians.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teltechians.json; sourceTree = "<group>"; };
 		3A45FE74291194C700C95628 /* RootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFeature.swift; sourceTree = "<group>"; };
 		3A45FE7829119AAA00C95628 /* Reducer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reducer+Extensions.swift"; sourceTree = "<group>"; };
 		3A52822A2911D0D000287A60 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 				3A2A66AD29118F3A001DD524 /* EmployeesDemoApp.swift */,
 				3A45FE7829119AAA00C95628 /* Reducer+Extensions.swift */,
 				3A2A66B129118F3B001DD524 /* Assets.xcassets */,
-				3A073ED329152ECF00BE4545 /* teltechians.json */,
+				3A41AEF02917118A00EC2DA0 /* teltechians.json */,
 				3A2A66B329118F3B001DD524 /* Preview Content */,
 			);
 			path = EmployeesDemo;
@@ -325,7 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2A66B529118F3B001DD524 /* Preview Assets.xcassets in Resources */,
-				3A073ED429152ECF00BE4545 /* teltechians.json in Resources */,
+				3A41AEF12917118A00EC2DA0 /* teltechians.json in Resources */,
 				3A2A66B229118F3B001DD524 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
